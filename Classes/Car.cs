@@ -3,15 +3,15 @@ namespace ClassesExample
 {
     public class Car
     {
-       //public Car()
-       //{
+        public Car()
+        {
+        }
 
-       //}
-
-       public Car(string makeInput, string modelInput, int year)
+        
+        public Car(string make, string model, int year)
        {
-        Make = makeInput;
-        Model = modelInput;
+        Make = make;
+        Model = model;
         Year = year;
        }
 
